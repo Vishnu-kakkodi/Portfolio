@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfoilio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e85d1f6ba2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/MYLOGO.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contract</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Vishnu P</span><br> From Calicut</h1>
+            </div>
+        </div>
+    </div>
+
+<!------------------- about-------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/Aboutpic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my cornor of the world. I'm Vishnu P, Web developer with an engineering background. I'm Dedicated to work in web development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')" >Experience</p>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor of Technology</span><br>Electrical and Electronics Engineering</li>
+                        <li><span>BSS Diploma</span><br>Power Plant Operation</li>
+                        <li><span>AutoCAD</span><br>Essential</li>
+                        <li><span>Industrial Training Program</span><br>Embedded System</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML & CSS</li>
+                        <li><span>Web Designing</span><br>HTML, CSS, JavaScript, Bootstrap</li>
+                        <li><span>Relay Testing</span><br>Omicron, Severker</li>
+                    </ul>
+                    
+                </div>
+                
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Project Engineer</span><br>Electrical Installation</li>
+                        <li><span>Finance Executive</span><br>Manappuram Finance</li>
+                        <li><span>Testing Engineer Trainee</span><br>KSEB</li>
+                    </ul>
+                    
+                </div>
+                
+
+                
+
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML & CSS</li>
+                        <li><span>Web Designing</span><br>HTML, CSS, JavaScript, Bootstrap</li>
+                        <li><span>Relay Testing</span><br>Omicron, Severker</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------Services-------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Webpage developed by using MERN stack.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>Creates the layout and design of a website. In simple terms,makes a website look good</p>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+
+<!-----------------Qualities-------------------->
+
+<div id="qualities">
+    <div class="container">
+        <h1 class="sub-title">My Qualities</h1>
+        <div class="qualities-list">
+            <div>
+                <h2>Profesional Quality</h2>
+                <h3>Smart Work</h3>
+                <h3>Commitment</h3>
+                <h3>Leadership</h3>
+                <h3>Creativity</h3>
+                <h3>Communication</h3>
+            </div>
+            <div>
+                <h2>Personal Quality</h2>
+                <h3>Patience</h3>
+                <h3>Flexible to all..</h3>
+                <h3>Honest</h3>
+                <h3>Creative</h3>
+                <h3>Humple</h3>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+
+<!-- ----------------portfolio------------------->
+
+<div id="portfolio">
+    <div class="sub-title">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/My work1.png">
+                <div class="layer">
+                    <h3>YouTube Clone</h3>
+                    <p>Static website of YouTube</p>
+                    <a href="https://vishnu-kakkodi.github.io/YouTube-Clone/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/My Work2.png">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Static website of Netflix </p>
+                    <a href="https://vishnu-kakkodi.github.io/Netflix-Clone/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/My work3.png">
+                <div class="layer">
+                    <h3>Responsive Website</h3>
+                    <p>Responsive website of Public Website</p>
+                    <a href="https://vishnu-kakkodi.github.io/ELITE-HAVEN/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------contact---------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pvishnukakkodi@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-6282714883</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/vishnu.kakkodi.1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/VISHNUP1216491?t=7khq-jt8jt3qRNAewlevQA&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/pvishnukakkodi?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vishnu-p-46426a181?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/VISHNU-P.pdf" downloads="" class="btn btn2">Download My Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Vishnu. Made with</p>
+    </div>
+</div>
+
+<!-- ---------------------------JAVASCRIPT---------------------------- -->
+
+<script src="./port.js"></script>
+
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz58xBTcjM2PdzUkwvdvtARYD_hEFmNaZInDu2fPz58evqlE0mJe_GknJmMUZVT1vBTUw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+
+  </script>
+
+
+</body>
+</html>
